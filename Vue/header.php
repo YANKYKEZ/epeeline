@@ -48,7 +48,7 @@
         </div>
         <div class="col s12 m2 l2">
             <ul class="left hide-on-med-and-down">
-                <li><a href="" style="color: #ffffff"><i class="small material-icons">domaint</i><br/>LOUER
+                <li><a href="" style="color: #ffffff"><i class="small material-icons">location_city</i><br/>LOUER
 
                     </a>
                 </li>
@@ -56,7 +56,7 @@
         </div>
         <div class="col s12 m2 l2">
             <ul class="left hide-on-med-and-down">
-                <li><a href="" style="color: #ffffff"><i class="small material-icons">receipt</i><br/>CONTACT
+                <li><a href="" style="color: #ffffff"><i class="small material-icons">mail_outline</i><br/>CONTACT
 
 
                     </a>
