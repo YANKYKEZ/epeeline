@@ -10,23 +10,17 @@
     .decohr{
         height: 3px;
         background-color: #cca653;
-
     }
 
     .decoha{
         text-align: left;
         color: #ffffff;
     }
-    
 
     main {
         flex: 1 0 auto;
     }
-
-
-
 </style>
-
 
 
         <div class="colnav ">
