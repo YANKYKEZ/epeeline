@@ -8,7 +8,7 @@
     </div>
 </div>
 
-<div class="row" style="background-color:#212121; color: #ffffff; text-align: center; margin-top: -1.3%">
+<div class="row" style="background-color:#424242; color:#ffffff; text-align: center; margin-top: -1.4%">
     <div class="container">
         <div class="col s12 m2 l2">
             <ul class="left hide-on-med-and-down">
