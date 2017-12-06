@@ -76,6 +76,10 @@
         height: 8%;
         border-radius: 2px;
     }
+
+    ul:active{
+        color: #ffffff !important;
+    }
 </style>
 
 

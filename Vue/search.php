@@ -2,16 +2,18 @@
 <style>
     .colsearch{
         background-color: #cca653;
+        margin-top: -1.3%;
 
     }
     .alignsearch{
-        margin-bottom: 5px;
+        margin-bottom: 25px;
         margin-top: 5px;
     }
 
 </style>
 
 <div class="colsearch">
+    <br/>
     <div class="container">
         <div class="row">
             <div class="col s12 m4 l2">
