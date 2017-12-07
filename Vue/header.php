@@ -15,7 +15,7 @@
                 <li>
 
                     <span style="text-align: center; margin-top: 1%">
-                        <a href="" style="color: #ffffff"><i class="small material-icons">home</i><br/>ACCUEIL
+                        <a href="index.php" style="color: #ffffff"><i class="small material-icons">home</i><br/>ACCUEIL
                         </a>
 
                     </span>
@@ -24,7 +24,7 @@
         </div>
         <div class="col s12 m2 l2">
             <ul class="left hide-on-med-and-down">
-                <li><a href="" style="color: #ffffff"><i class="small material-icons">youtube_searched_for</i><br/>ACHETER
+                <li><a href="Acheter.php" style="color: #ffffff"><i class="small material-icons">youtube_searched_for</i><br/>ACHETER
 
                     </a>
                 </li>
@@ -32,7 +32,7 @@
         </div>
         <div class="col s12 m2 l2">
             <ul class="left hide-on-med-and-down">
-                <li><a href="" style="color: #ffffff"><i class="small material-icons">vpn_key</i><br/>VENDRE
+                <li><a href="Vendre.php" style="color: #ffffff"><i class="small material-icons">vpn_key</i><br/>VENDRE
 
                     </a>
                 </li>
@@ -48,7 +48,7 @@
         </div>
         <div class="col s12 m2 l2">
             <ul class="left hide-on-med-and-down">
-                <li><a href="" style="color: #ffffff"><i class="small material-icons">location_city</i><br/>LOUER
+                <li><a href="Louer.php" style="color: #ffffff"><i class="small material-icons">location_city</i><br/>LOUER
 
                     </a>
                 </li>
