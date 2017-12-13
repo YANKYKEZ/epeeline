@@ -21,7 +21,12 @@
                 color: #ffffff;
             }
 
+            .cosit{
+                color: #cca653;
+            }
+
         </style>
+
 
 
         <script>
@@ -203,9 +208,9 @@
                 <div class="col s13 m3 l2 de des">
                     <a class="small material-icons" style="color: #ebd37b;" onclick="Materialize.toast('La mensualité maximum est de 40% du salaire de l\'emprunteur', 6000)">info_outline</a>
                 </div>
-                <div class="col s13 m3 l6 de">
+                <div class="col s13 m3 l6 ">
                     <input placeholder=" Montant à Empreinter "  style="background-color: #ffffff !important;  border:1px; border-radius: 1px; #616161 !important; "  type="text" formatInt()     onKeyUp="verif_integer(this)" id="first_name" name="capital" type="text" class="validate" value="<?php if (isset($_POST['capital'])){echo $_POST['capital'];} ?>" >
-                    
+
                 </div>
                 <div class="col s13 m3 l2 de des">
                     Fcfa
@@ -319,6 +324,8 @@
                 <div class="col s6 m6 l6">
                     <input  type="submit" id="cal" value="Calculer" class="waves-effect waves-light btn btncol" style="background-color: #ebd37b; color: #5A5858; margin-left: -10%">
                 </div>
+                <br/> <br/>
+                <hr/>
             </div>
 
             <br>
@@ -327,24 +334,24 @@
                 <div class=" st" id="affiche" style="">
                     <table BORDER="2" heigth="25%">
                         <tr class="tr">
-                            <td ">VOTRE MENSUALITE SERA DONC DE</td>
+                            <td  class="de" ">VOTRE MENSUALITE SERA DONC DE</td>
                             <td style="color: #ead079; font-weight: bold"><?php echo $nombre_format_francais; ?></td>
-                            <td>FCFA</td>
+                            <td class="de">FCFA</td>
                         </tr>
                         <tr class="tr" >
-                            <td style="">VOUS REMBOURSEREZ AU BOUT DE </td>
+                            <td class="de">VOUS REMBOURSEREZ AU BOUT DE </td>
                             <td style="color: #ead079;  font-weight: bold"><?php echo $_POST['annee'];?> </td>
-                            <td style="">ANS</td>
+                            <td class="de">ANS</td>
                         </tr>
                         <tr class="tr">
-                            <td>LA SOMME DE </td>
+                            <td class="de">LA SOMME DE </td>
                             <td style="color: #ead079; font-weight: bold"><?php echo $nombre_format_francais1; ?> </td>
-                            <td>FCFA</td>
+                            <td class="de">FCFA</td>
                         </tr>
                         <tr class="tr">
-                            <td>VOTRE PRET VOUS AURA DONC COUTÉ </td>
+                            <td class="de">VOTRE PRET VOUS AURA DONC COUTÉ </td>
                             <td style="color: #ead079; font-weight: bold"><?php echo $nombre_format_francais2; ?> </td>
-                            <td>FCFA</td>
+                            <td class="de">FCFA</td>
                         </tr>
                     </table>
                 </div>
@@ -368,47 +375,47 @@
                     <table class="striped">
                         <thead style="background-color:#4D4D4D; ">
                         <tr>
-                            <th class="colentete" data-field="id">DURÉE DU PRÊT</th>
-                            <th class="colentete" data-field="price">MENSUALITÉ</th>
-                            <th class="colentete" data-field="name">SOMME DES MENSUALITÉS</th>
-                            <th class="colentete" data-field="price">COÛT DU PRÊT</th>
+                            <th class="colentete cosit" data-field="id">DURÉE DU PRÊT</th>
+                            <th class="colentete cosit" data-field="price">MENSUALITÉ</th>
+                            <th class="colentete cosit" data-field="name">SOMME DES MENSUALITÉS</th>
+                            <th class="colentete cosit" data-field="price">COÛT DU PRÊT</th>
 
                         </tr>
                         </thead>
 
                         <tbody>
-                        <tr>
+                        <tr class="cosit">
                             <td>10 Ans</td>
                             <td><?php echo $nombreM1_format_francais; ?></td>
                             <td><?php echo $nombreSM1_format_francais1;?></td>
                             <td><?php echo $nombreCP1_format_francais2;?></td>
                         </tr>
-                        <tr>
+                        <tr class="cosit">
                             <td>15 Ans</td>
                             <td><?php echo $nombreM2_format_francais; ?></td>
                             <td><?php echo $nombreSM2_format_francais1;?></td>
                             <td><?php echo $nombreCP2_format_francais2;?></td>
                         </tr>
-                        <tr>
+                        <tr class="cosit">
                             <td>20 Ans</td>
                             <td><?php echo $nombreM3_format_francais; ?></td>
                             <td><?php echo $nombreSM3_format_francais1;?></td>
                             <td><?php echo $nombreCP3_format_francais2;?></td>
                         </tr>
-                        <tr>
+                        <tr class="cosit">
                             <td>25 Ans</td>
                             <td><?php echo $nombreM4_format_francais; ?></td>
                             <td><?php echo $nombreSM4_format_francais1; ?></td>
                             <td><?php echo $nombreCP4_format_francais2;?></td>
 
                         </tr>
-                        <tr>
+                        <tr class="cosit">
                             <td>30 Ans</td>
                             <td><?php echo $nombreM5_format_francais;?></td>
                             <td><?php echo $nombreSM5_format_francais1;?></td>
                             <td><?php echo $nombreCP5_format_francais2;?></td>
                         </tr>
-                        <tr>
+                        <tr class="cosit">
                             <td>35 Ans</td>
                             <td><?php echo $nombreM6_format_francais;?></td>
                             <td><?php echo $nombreSM6_format_francais1;?></td>
@@ -423,5 +430,6 @@
         </div>
     </div>
     </form>
+<?php include'footer.php'?>
 </body>
 </html>

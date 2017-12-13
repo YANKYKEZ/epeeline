@@ -41,14 +41,14 @@
 
                 <div class="row">
                     <div class="col s12 m2 l2 ">
-                        <a href="#!" class="decoha">Accueil </a><br/>
-                        <a href="#!" class="decoha">Acheter</a><br/>
-                        <a href="#!" class="decoha">Vendre</a><br/>
-                        <a href="#!" class="decoha">Simulateur</a><br/>
+                        <a href="index.php" class="decoha">Accueil </a><br/>
+                        <a href="Acheter.php" class="decoha">Acheter</a><br/>
+                        <a href="Vendre.php" class="decoha">Vendre</a><br/>
+                        <a href="Simulateur.php" class="decoha">Simulateur</a><br/>
                     </div>
 
                     <div class="col s12 m2 l2 ">
-                        <a href="#!" class="decoha">Louer</a><br/>
+                        <a href="Louer.php" class="decoha">Louer</a><br/>
                         <a href="#!" class="decoha">Contact</a><br/>
                     </div>
 

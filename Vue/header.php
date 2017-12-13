@@ -40,7 +40,7 @@
         </div>
         <div class="col s12 m2 l2">
             <ul class="left hide-on-med-and-down">
-                <li><a href="" style="color: #ffffff"><i class="small material-icons">trending_up</i><br/>SIMULATEUR
+                <li><a href="Simulateur.php" style="color: #ffffff"><i class="small material-icons">trending_up</i><br/>SIMULATEUR
 
                     </a>
                 </li>
