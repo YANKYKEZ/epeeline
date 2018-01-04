@@ -45,11 +45,12 @@
                         <a href="Acheter.php" class="decoha">Acheter</a><br/>
                         <a href="Vendre.php" class="decoha">Vendre</a><br/>
                         <a href="Simulateur.php" class="decoha">Simulateur</a><br/>
+                        <a href="Louer.php" class="decoha">Louer</a><br/>
+                        <a href="#!" class="decoha">Contact</a><br/><br/>
                     </div>
 
                     <div class="col s12 m2 l2 ">
-                        <a href="Louer.php" class="decoha">Louer</a><br/>
-                        <a href="#!" class="decoha">Contact</a><br/>
+
                     </div>
 
                     <div class="col s12 m2 l2">
@@ -59,14 +60,14 @@
                     </div>
 
                     <div class="col s12 m2 l3">
-                        <img src="Data/Images/3.jpg" style="width: 100%" alt=""/> <br/> <br/>
+                        <img src="Data/Images/3333.jpg" style="width: 90%;" alt=""/> <br/> <br/>
                     </div>
                     <div class="col s12 m2 l3" style="background-color: #000000">
                         <br/>
                         238, rue Batibois - Carrefour IPN Bonapriso <br/>
                         BP : 3195 Douala Cameroun <br/>
                         Tél: + 237 233 859 159 <br/>
-                        Email: contact@epeeline.com
+                        Email: contact@epeeline.com <br/> <br/>
                     </div>
                 </div>
 

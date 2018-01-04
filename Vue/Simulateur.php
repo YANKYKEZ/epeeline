@@ -209,8 +209,7 @@
                     <a class="small material-icons" style="color: #ebd37b;" onclick="Materialize.toast('La mensualité maximum est de 40% du salaire de l\'emprunteur', 6000)">info_outline</a>
                 </div>
                 <div class="col s13 m3 l6 ">
-                    <input placeholder=" Montant à Empreinter "  style="background-color: #ffffff !important;  border:1px; border-radius: 1px; #616161 !important; "  type="text" formatInt()     onKeyUp="verif_integer(this)" id="first_name" name="capital" type="text" class="validate" value="<?php if (isset($_POST['capital'])){echo $_POST['capital'];} ?>" >
-
+                    <input placeholder=" Montant à Empreinter "  style="background-color: #ffffff !important;  border:1px; border-radius: 1px; #616161 !important; text-align: right "  type="text" formatInt()     onKeyUp="verif_integer(this)" id="first_name" name="capital" type="text" class="validate" value="<?php if (isset($_POST['capital'])){echo $_POST['capital'];} ?>" >
                 </div>
                 <div class="col s13 m3 l2 de des">
                     Fcfa

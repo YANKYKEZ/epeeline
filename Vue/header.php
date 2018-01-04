@@ -1,7 +1,7 @@
 <?php include 'Masterpage.php'?>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <div class="row">
-    <div class="col s12 m12 l12" style="background-color: #000000; color: #ffffff; text-align: center">
+    <div class="col s12 m12 l12" style="background-color: #ffffff; color: #ffffff; text-align: center">
         <a href="#!" class="brand-logo center">
             <img  src="Data/Images/Epee.Line_Logo(72ppp).png" style="width: 12%; margin-bottom: 1%;margin-top: 1%" alt="immobilier et financement cameroun"/>
         </a>
