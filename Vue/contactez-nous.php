@@ -30,12 +30,25 @@
 
 <div class="container">
     <div class="row">
+            <div class="col s12 m6 l6 bg-decor">
+                <h5 style="color: #cca653"> Argence de Douala</h5>
+                <hr style="border-color: #cca653;">
+                <p style="color: #ffffff"> 238, rue  Batiboa - Carrefour  IPN  Bonapriso</p>
+                <p style="color: #ffffff"> BP: 3195  Douala - Cameroun</p><p style="color: #ffffff"> Email: contact@epeeline.com</p>
+                <p style="color: #ffffff"> Tél: + 237 233 859 159</p>
+            </div>
         <div class="col s12 m6 l6 bg-decor">
-            <p style="color: #ffffff"> 238, rue  Batiboa - Carrefour  IPN  Bonapriso</p>
-            <p style="color: #ffffff"> BP: 3195  Douala - Cameroun</p><p style="color: #ffffff"> Email: contact@epeeline.com</p>
-            <p style="color: #ffffff"> Tél: + 237 233 859 159</p>
+            <h5 style="color: #cca653"> Argence de Paris</h5>
+            <hr style="border-color: #cca653;">
+            <p style="color: #ffffff"> 59, rue  Raspail </p>
+            <p style="color: #ffffff"> BP: 9230  Levalloi-perret</p>
+            <p style="color: #ffffff"> Email: contact@epeeline.com</p>
+            <p style="color: #ffffff"> Tél: </p>
         </div>
+    </div>
 
+
+    <div class="row">
         <div class="col s12 m6 l6  bg-decor" >
             <H5 style="color: #cca653; text-align: center">CONTACTEZ-NOUS</H5>
             <input placeholder=" Nom" name="nom" style="background-color: #ffffff !important;  border:1px; border-radius: 1px; #616161 !important; margin-top: 5px; margin-bottom: 5px"  id=" " type="text">

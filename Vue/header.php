@@ -56,7 +56,7 @@
         </div>
         <div class="col s12 m2 l2">
             <ul class="left hide-on-med-and-down">
-                <li><a href="" style="color: #ffffff"><i class="small material-icons">mail_outline</i><br/>CONTACT
+                <li><a href="contactez-nous.php" style="color: #ffffff"><i class="small material-icons">mail_outline</i><br/>CONTACT
 
 
                     </a>
